@@ -6,7 +6,7 @@ import { HeroSlider } from './components/home/HeroSlider';
 import { FeaturedSection } from './components/home/FeaturedSection';
 import { BannerSlider } from './components/home/BannerSlider';
 import { AboutBanner } from './components/home/AboutBanner';
-import { KitsEmprende } from './components/home/KitsEmprende';
+import { QuoteBuilder } from './components/home/QuoteBuilder';
 import { AdvisoryBanner } from './components/home/AdvisoryBanner';
 import { TrustBadges } from './components/home/TrustBadges';
 import { FaqSection } from './components/home/FaqSection';
@@ -60,8 +60,8 @@ export function App() {
         {/* About Banner (#nosotros) */}
         <AboutBanner />
 
-        {/* Kits & Services Section (.kits-section) */}
-        <KitsEmprende />
+        {/* Dynamic Quote Builder (#servicios) */}
+        <QuoteBuilder />
 
         {/* Help & Contact Banner (.help-banner #contacto) */}
         <AdvisoryBanner />

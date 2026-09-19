@@ -101,7 +101,7 @@ export const Header = ({ searchQuery = '', onSearch }) => {
               onClick={() => setIsMenuOpen(false)}
               className="py-2 px-4 rounded-full font-heading font-bold text-gray-800 hover:bg-pink-50 hover:text-pink-600 transition-colors"
             >
-              Servicios
+              Cotizar
             </a>
             <a
               href="#productos"
