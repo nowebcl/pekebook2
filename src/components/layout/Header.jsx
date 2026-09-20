@@ -18,7 +18,7 @@ export const Header = ({ searchQuery = '', onSearch }) => {
         {/* Brand */}
         <a className="brand flex-shrink-0" href="#inicio" aria-label="PekeBook inicio">
           <img
-            src="https://pekebook.cl/wp-content/uploads/2025/07/Recurso-1.webp"
+            src="/logo.png"
             alt="PekeBook Librería y Bazar"
             className="brand-logo-img"
             onError={(e) => {

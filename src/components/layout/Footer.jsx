@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="container footer-grid">
         <div className="footer-brand">
           <img
-            src="https://pekebook.cl/wp-content/uploads/2025/07/Recurso-1.webp"
+            src="/logo.png"
             alt="PekeBook"
             onError={(e) => {
               e.target.style.display = 'none';
