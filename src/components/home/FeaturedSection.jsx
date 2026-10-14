@@ -202,7 +202,7 @@ export const FeaturedSection = ({ activeCategory, onResetCategory, searchQuery =
                       src={product.image}
                       alt={product.name}
                       onError={(e) => {
-                        e.target.src = 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80';
+                        e.target.src = '/placeholder-product.svg';
                       }}
                     />
                     <div className="badge">{product.badge}</div>

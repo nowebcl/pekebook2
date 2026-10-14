@@ -49,6 +49,7 @@ export const QuickViewModal = () => {
               src={product.image}
               alt={product.name}
               className="w-full h-full object-cover"
+              onError={(e) => { e.target.src = "/placeholder-product.svg"; }}
             />
             {product.badge && (
               <span className="absolute top-3 left-3 bg-pink-500 text-white text-[10px] font-black tracking-wide uppercase px-2.5 py-1 rounded-full shadow-xs">
