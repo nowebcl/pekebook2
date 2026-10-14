@@ -126,7 +126,7 @@ export const CartProvider = ({ children }) => {
 
   // WhatsApp Order Link Generator
   const generateWhatsAppOrderUrl = () => {
-    const phone = '56967486503';
+    const phone = '56941764653';
     let message = '✨ *¡Hola Pekebook! Quiero coordinar mi pedido web* ✨\n\n';
     message += '📦 *Detalle de productos:*\n';
     cart.forEach(item => {
@@ -137,7 +137,7 @@ export const CartProvider = ({ children }) => {
     if (cartTotal >= FREE_SHIPPING_THRESHOLD) {
       message += '🎉 *¡Aplica a Envío Gratis en Puerto Montt!*\n';
     }
-    message += '\n📍 ¿Me indican los datos para transferencia o retiro en local (Mañihual 285, Local 3)? ¡Muchas gracias!';
+    message += '\n📍 ¿Me indican los datos para transferencia o retiro en sucursal (Peke 1: Av. Gabriela Mistral 957, Local 7 / Peke 2: Av. Violeta Parra, Local 1)? ¡Muchas gracias!';
 
     return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
   };

@@ -89,7 +89,7 @@ export const StoreServices = () => {
 
               <div className="p-5 pt-0">
                 <a
-                  href={`https://wa.me/56967486503?text=${encodeURIComponent(
+                  href={`https://wa.me/56941764653?text=${encodeURIComponent(
                     `Hola Pekebook, quisiera cotizar el servicio de: ${srv.title}`
                   )}`}
                   target="_blank"

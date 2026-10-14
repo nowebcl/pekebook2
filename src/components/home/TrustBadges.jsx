@@ -21,8 +21,8 @@ export const TrustBadges = () => {
         </div>
         <div>
           <span>📍</span>
-          <strong>Puerto Montt</strong>
-          <small>Mañihual 285, Local 3</small>
+          <strong>Peke 1 & Peke 2</strong>
+          <small>Av. Gabriela Mistral 957 · Av. Violeta Parra 1</small>
         </div>
       </div>
     </section>

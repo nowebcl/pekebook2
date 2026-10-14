@@ -4,7 +4,7 @@ import { Instagram, Heart, MessageCircle, ExternalLink } from 'lucide-react';
 const INSTA_POSTS = [
   {
     image: 'https://pekebook.cl/wp-content/uploads/2025/07/491445813_17913224271098232_4509710459591268297_n-1.jpg',
-    caption: '¡Nuevos insumos en vitrina! Anilladoras, planners y papeles fotográficos listos para ti en Mañihual 285 🌸',
+    caption: '¡Nuevos insumos en vitrina! Anilladoras, planners y papeles fotográficos listos para ti en Peke 1 (Av. Gabriela Mistral 957) y Peke 2 (Av. Violeta Parra 1) 🌸',
     likes: 142,
     comments: 18,
   },

@@ -284,7 +284,7 @@ export const CartDrawer = () => {
               <p><span className="font-semibold">Banco:</span> BancoEstado / Cuenta RUT</p>
               <p><span className="font-semibold">Nombre:</span> Pekebook Librería y Bazar</p>
               <p><span className="font-semibold">Email:</span> contacto@pekebook.cl</p>
-              <p><span className="font-semibold">WhatsApp comprobante:</span> +56 9 6748 6503</p>
+              <p><span className="font-semibold">WhatsApp comprobante:</span> +56 9 4176 4653</p>
             </div>
 
             {checkoutSuccess ? (

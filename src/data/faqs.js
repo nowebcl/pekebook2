@@ -1,7 +1,7 @@
 export const FAQS = [
   {
     question: '¿Realizan servicios de impresión en PEKEBOOK?',
-    answer: '¡Sí! En nuestro local de Puerto Montt ofrecemos servicios de impresión digital para documentos, posters, fotografías, stickers troquelados, tarjetas de presentación y recuerdos con la más alta calidad y definición a precios accesibles.',
+    answer: '¡Sí! En nuestras sucursales de Puerto Montt (Peke 1: Av. Gabriela Mistral 957 y Peke 2: Av. Violeta Parra 1) ofrecemos servicios de impresión digital para documentos, posters, fotografías, stickers troquelados, tarjetas de presentación y recuerdos con la más alta calidad y definición a precios accesibles.',
     category: 'servicios'
   },
   {
@@ -21,7 +21,7 @@ export const FAQS = [
   },
   {
     question: '¿Qué medios de pago están disponibles?',
-    answer: 'Aceptamos tarjetas de débito y crédito a través de Webpay Plus / Transbank, transferencia electrónica bancaria directa (BancoEstado, Banco de Chile, etc.) y efectivo o débito presencial en nuestra tienda de Puerto Montt.',
+    answer: 'Aceptamos tarjetas de débito y crédito a través de Webpay Plus / Transbank, transferencia electrónica bancaria directa (BancoEstado, Banco de Chile, etc.) y efectivo o débito presencial en cualquiera de nuestras sucursales de Puerto Montt (Peke 1 o Peke 2).',
     category: 'pagos'
   },
   {
