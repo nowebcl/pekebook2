@@ -143,6 +143,12 @@ export const CartDrawer = () => {
                   src={product.image}
                   alt={product.name}
                   className="w-16 h-16 rounded-xl object-cover border border-pink-100 bg-pink-50/50 shrink-0"
+                  loading="lazy"
+                  referrerPolicy="no-referrer"
+                  onError={(e) => {
+                    e.currentTarget.onerror = null;
+                    e.currentTarget.src = '/placeholder-product.svg';
+                  }}
                 />
 
                 {/* Info */}

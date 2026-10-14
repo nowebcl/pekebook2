@@ -201,8 +201,11 @@ export const FeaturedSection = ({ activeCategory, onResetCategory, searchQuery =
                     <img
                       src={product.image}
                       alt={product.name}
+                      loading="lazy"
+                      referrerPolicy="no-referrer"
                       onError={(e) => {
-                        e.target.src = '/placeholder-product.svg';
+                        e.currentTarget.onerror = null;
+                        e.currentTarget.src = '/placeholder-product.svg';
                       }}
                     />
                     <div className="badge">{product.badge}</div>

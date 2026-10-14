@@ -1,4 +1,4 @@
-// Catálogo Completo PekeBook 2026 - Con imágenes reales integradas desde PedidosYa y WhatsApp
+// Catálogo Completo PekeBook 2026 - Con imágenes reales integradas desde WhatsApp y placeholder oficial
 export const PRODUCTS = [
   {
     "id": "peke-wa-1",
@@ -13,12 +13,12 @@ export const PRODUCTS = [
     "badge": "MÁS VENDIDO",
     "badgeType": "bestseller",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 16,
     "isMayorista": false,
     "isOffer": true,
     "isFeatured": true,
     "image": "/products/catalog/real_prod_1.jpg",
-    "description": "Tazón Blanco 11 oz Sublimación disponible en Librería & Bazar Pekebook Puerto Montt.",
+    "description": "Tazón Blanco 11 oz Sublimación disponible con stock real en Librería & Bazar Pekebook Puerto Montt.",
     "inStock": true
   },
   {
@@ -33,7 +33,7 @@ export const PRODUCTS = [
     "badge": "MÁS VENDIDO",
     "badgeType": "bestseller",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 17,
     "isMayorista": false,
     "isOffer": true,
     "isFeatured": true,
@@ -53,7 +53,7 @@ export const PRODUCTS = [
     "badge": "MÁS VENDIDO",
     "badgeType": "bestseller",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 18,
     "isMayorista": false,
     "isOffer": true,
     "isFeatured": true,
@@ -64,9 +64,10 @@ export const PRODUCTS = [
   {
     "id": "peke-wa-4",
     "name": "Opalina Blanca Oficio Grofada 200g (100 Hojas)",
-    "category": "sublimacion",
+    "category": "encuadernacion",
     "subcategories": [
-      "sublimacion",
+      "encuadernacion",
+      "libreria",
       "papeles-tintas"
     ],
     "price": 13490,
@@ -74,74 +75,78 @@ export const PRODUCTS = [
     "badge": "MÁS VENDIDO",
     "badgeType": "bestseller",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 19,
     "isMayorista": false,
     "isOffer": true,
     "isFeatured": true,
     "image": "/products/catalog/real_prod_4.jpg",
-    "description": "Opalina Blanca Oficio Grofada 200g (100 Hojas) disponible en Librería & Bazar Pekebook Puerto Montt.",
+    "description": "Opalina Blanca Oficio Grofada 200g (100 Hojas) disponible con stock real en Librería & Bazar Pekebook Puerto Montt.",
     "inStock": true
   },
   {
     "id": "peke-wa-5",
     "name": "Opalina Blanca Oficio Lisa 200g (100 Hojas)",
-    "category": "sublimacion",
+    "category": "encuadernacion",
     "subcategories": [
-      "sublimacion",
+      "encuadernacion",
+      "libreria",
       "papeles-tintas"
     ],
     "price": 13790,
     "originalPrice": 16500,
-    "badge": "MÁS VENDIDO",
-    "badgeType": "bestseller",
+    "badge": "DESTACADO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 20,
     "isMayorista": false,
     "isOffer": true,
     "isFeatured": true,
     "image": "/products/catalog/real_prod_5.jpg",
-    "description": "Opalina Blanca Oficio Lisa 200g (100 Hojas) disponible en Librería & Bazar Pekebook Puerto Montt.",
+    "description": "Opalina Blanca Oficio Lisa 200g (100 Hojas) disponible con stock real en Librería & Bazar Pekebook Puerto Montt.",
     "inStock": true
   },
   {
     "id": "peke-wa-6",
     "name": "Papel Texturado para Tarjetas 230g",
-    "category": "sublimacion",
+    "category": "encuadernacion",
     "subcategories": [
-      "sublimacion",
+      "encuadernacion",
+      "libreria",
       "papeles-tintas"
     ],
     "price": 5990,
     "originalPrice": 7200,
     "badge": "DESTACADO",
-    "badgeType": "star",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 21,
     "isMayorista": false,
     "isOffer": true,
     "isFeatured": true,
     "image": "/products/catalog/real_prod_6.jpg",
-    "description": "Papel Texturado para Tarjetas 230g disponible en Librería & Bazar Pekebook Puerto Montt.",
+    "description": "Papel Texturado para Tarjetas 230g disponible con stock real en Librería & Bazar Pekebook Puerto Montt.",
     "inStock": true
   },
   {
     "id": "peke-wa-7",
     "name": "Cajas para Tarjetas de Presentación",
-    "category": "libreria",
+    "category": "encuadernacion",
     "subcategories": [
-      "libreria"
+      "encuadernacion",
+      "libreria",
+      "papeles-tintas"
     ],
     "price": 490,
     "originalPrice": 600,
     "badge": "DESTACADO",
-    "badgeType": "star",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 22,
     "isMayorista": false,
-    "isOffer": true,
+    "isOffer": false,
     "isFeatured": true,
     "image": "/products/catalog/real_prod_7.jpg",
-    "description": "Cajas para Tarjetas de Presentación disponible en Librería & Bazar Pekebook Puerto Montt.",
+    "description": "Cajas para Tarjetas de Presentación disponible con stock real en Librería & Bazar Pekebook Puerto Montt.",
     "inStock": true
   },
   {
@@ -150,19 +155,19 @@ export const PRODUCTS = [
     "category": "sublimacion",
     "subcategories": [
       "sublimacion",
-      "papeles-tintas"
+      "textil"
     ],
     "price": 1790,
     "originalPrice": 2100,
     "badge": "DESTACADO",
-    "badgeType": "star",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 23,
     "isMayorista": false,
-    "isOffer": true,
+    "isOffer": false,
     "isFeatured": true,
     "image": "/products/catalog/real_prod_8.jpg",
-    "description": "Estuche Crea Sublimable disponible en Librería & Bazar Pekebook Puerto Montt.",
+    "description": "Estuche Crea Sublimable disponible con stock real en Librería & Bazar Pekebook Puerto Montt.",
     "inStock": true
   },
   {
@@ -175,35 +180,35 @@ export const PRODUCTS = [
     ],
     "price": 2990,
     "originalPrice": 3600,
-    "badge": "DESTACADO",
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 24,
     "isMayorista": false,
-    "isOffer": true,
+    "isOffer": false,
     "isFeatured": true,
     "image": "/products/catalog/real_prod_9.jpg",
-    "description": "Vaso con Asa y Tapa Metálica disponible en Librería & Bazar Pekebook Puerto Montt.",
+    "description": "Vaso con Asa y Tapa Metálica disponible con stock real en Librería & Bazar Pekebook Puerto Montt.",
     "inStock": true
   },
   {
     "id": "peke-wa-10",
     "name": "Guantes Protección de Calor",
-    "category": "libreria",
+    "category": "sublimacion",
     "subcategories": [
-      "libreria"
+      "sublimacion"
     ],
     "price": 4500,
     "originalPrice": 5400,
-    "badge": "DESTACADO",
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
     "reviewsCount": 25,
     "isMayorista": false,
-    "isOffer": true,
+    "isOffer": false,
     "isFeatured": true,
     "image": "/products/catalog/real_prod_10.jpg",
-    "description": "Guantes Protección de Calor disponible en Librería & Bazar Pekebook Puerto Montt.",
+    "description": "Guantes Protección de Calor disponible con stock real en Librería & Bazar Pekebook Puerto Montt.",
     "inStock": true
   },
   {
@@ -212,16 +217,17 @@ export const PRODUCTS = [
     "category": "sublimacion",
     "subcategories": [
       "sublimacion",
-      "papeles-tintas"
+      "papeles-tintas",
+      "libreria"
     ],
     "price": 3500,
     "originalPrice": 4200,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 26,
     "isMayorista": false,
-    "isOffer": true,
+    "isOffer": false,
     "isFeatured": true,
     "image": "/products/catalog/real_prod_11.jpg",
     "description": "valor por cada una",
@@ -232,17 +238,16 @@ export const PRODUCTS = [
     "name": "Tarjetas de PVC Imprimible / Sublimable",
     "category": "sublimacion",
     "subcategories": [
-      "sublimacion",
-      "papeles-tintas"
+      "sublimacion"
     ],
     "price": 2490,
     "originalPrice": 3000,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 27,
     "isMayorista": false,
-    "isOffer": true,
+    "isOffer": false,
     "isFeatured": true,
     "image": "/products/catalog/real_prod_12.jpg",
     "description": "imprimible y sublimables",
@@ -254,19 +259,19 @@ export const PRODUCTS = [
     "category": "sublimacion",
     "subcategories": [
       "sublimacion",
-      "papeles-tintas"
+      "textil"
     ],
     "price": 1790,
     "originalPrice": 2100,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 28,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_13.jpg",
-    "description": "Pantuflas para Sublimar disponible en Librería & Bazar Pekebook Puerto Montt.",
+    "description": "Pantuflas para Sublimar disponible con stock real en Librería & Bazar Pekebook Puerto Montt.",
     "inStock": true
   },
   {
@@ -279,13 +284,13 @@ export const PRODUCTS = [
     ],
     "price": 3490,
     "originalPrice": 4200,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 29,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_14.jpg",
     "description": "(no incluye bombilla)",
     "inStock": true
@@ -300,15 +305,15 @@ export const PRODUCTS = [
     ],
     "price": 6490,
     "originalPrice": 7800,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 15,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_15.jpg",
-    "description": "Termo Digital con Sensor de Temperatura disponible en Librería & Bazar Pekebook Puerto Montt.",
+    "description": "Termo Digital con Sensor de Temperatura disponible con stock real en Librería & Bazar Pekebook Puerto Montt.",
     "inStock": true
   },
   {
@@ -321,13 +326,13 @@ export const PRODUCTS = [
     ],
     "price": 3490,
     "originalPrice": 4200,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 16,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_16.jpg",
     "description": "Tazón Glitter sublimable",
     "inStock": true
@@ -342,13 +347,13 @@ export const PRODUCTS = [
     ],
     "price": 3490,
     "originalPrice": 4200,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 17,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_17.jpg",
     "description": "Tazon Dorado Sublimable",
     "inStock": true
@@ -363,13 +368,13 @@ export const PRODUCTS = [
     ],
     "price": 3990,
     "originalPrice": 4800,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 18,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_18.jpg",
     "description": "Tazón Plateado efecto espejo",
     "inStock": true
@@ -384,13 +389,13 @@ export const PRODUCTS = [
     ],
     "price": 2490,
     "originalPrice": 3000,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 19,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_19.jpg",
     "description": "Tazón Glitter Duo Sublimable",
     "inStock": true
@@ -405,13 +410,13 @@ export const PRODUCTS = [
     ],
     "price": 1990,
     "originalPrice": 2400,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 20,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_20.jpg",
     "description": "Tazón interior de color 11oz colores disponibles rosado, turquesa, negro, naranja, amarillo, celeste, azul,gris, azul marino,morado, etc",
     "inStock": true
@@ -426,13 +431,13 @@ export const PRODUCTS = [
     ],
     "price": 2490,
     "originalPrice": 3000,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 21,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_21.jpg",
     "description": "Tazón Mágico Glitter 11oz",
     "inStock": true
@@ -447,13 +452,13 @@ export const PRODUCTS = [
     ],
     "price": 2490,
     "originalPrice": 3000,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 22,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_22.jpg",
     "description": "Tazón Neón sublimable 11oz",
     "inStock": true
@@ -468,36 +473,35 @@ export const PRODUCTS = [
     ],
     "price": 7900,
     "originalPrice": 9500,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 23,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_23.jpg",
-    "description": "Termo Niños y Niñas disponible en Librería & Bazar Pekebook Puerto Montt.",
+    "description": "Termo Niños y Niñas disponible con stock real en Librería & Bazar Pekebook Puerto Montt.",
     "inStock": true
   },
   {
     "id": "peke-wa-24",
     "name": "Tazón Cerámica Colores Pasteles",
-    "category": "sublimacion",
+    "category": "encuadernacion",
     "subcategories": [
-      "sublimacion",
-      "blanks"
+      "encuadernacion"
     ],
     "price": 2490,
     "originalPrice": 3000,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 24,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_24.jpg",
-    "description": "Tazón Cerámica Colores Pasteles disponible en Librería & Bazar Pekebook Puerto Montt.",
+    "description": "Tazón Cerámica Colores Pasteles disponible con stock real en Librería & Bazar Pekebook Puerto Montt.",
     "inStock": true
   },
   {
@@ -510,15 +514,15 @@ export const PRODUCTS = [
     ],
     "price": 1990,
     "originalPrice": 2400,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
     "reviewsCount": 25,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_25.jpg",
-    "description": "Tazón Empabonado de Colores disponible en Librería & Bazar Pekebook Puerto Montt.",
+    "description": "Tazón Empabonado de Colores disponible con stock real en Librería & Bazar Pekebook Puerto Montt.",
     "inStock": true
   },
   {
@@ -531,35 +535,36 @@ export const PRODUCTS = [
     ],
     "price": 3500,
     "originalPrice": 4200,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 26,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_26.jpg",
-    "description": "Shopero Empabonado Sublimable disponible en Librería & Bazar Pekebook Puerto Montt.",
+    "description": "Shopero Empabonado Sublimable disponible con stock real en Librería & Bazar Pekebook Puerto Montt.",
     "inStock": true
   },
   {
     "id": "peke-wa-27",
     "name": "Borlas Decorativas con Ribete Pekebook",
-    "category": "libreria",
+    "category": "sublimacion",
     "subcategories": [
-      "libreria"
+      "sublimacion",
+      "bazar"
     ],
     "price": 1780,
     "originalPrice": 2100,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 27,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_27.jpg",
-    "description": "Borlas Decorativas con Ribete Pekebook disponible en Librería & Bazar Pekebook Puerto Montt.",
+    "description": "Borlas Decorativas con Ribete Pekebook disponible con stock real en Librería & Bazar Pekebook Puerto Montt.",
     "inStock": true
   },
   {
@@ -568,19 +573,19 @@ export const PRODUCTS = [
     "category": "sublimacion",
     "subcategories": [
       "sublimacion",
-      "papeles-tintas"
+      "bazar"
     ],
     "price": 1390,
     "originalPrice": 1700,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 28,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_28.jpg",
-    "description": "Llavero Metálico Sublimable Redondo disponible en Librería & Bazar Pekebook Puerto Montt.",
+    "description": "Llavero Metálico Sublimable Redondo disponible con stock real en Librería & Bazar Pekebook Puerto Montt.",
     "inStock": true
   },
   {
@@ -589,38 +594,37 @@ export const PRODUCTS = [
     "category": "sublimacion",
     "subcategories": [
       "sublimacion",
-      "papeles-tintas"
+      "bazar"
     ],
     "price": 1350,
     "originalPrice": 1600,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 29,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_29.jpg",
-    "description": "Puzzle / Rompecabezas Sublimable disponible en Librería & Bazar Pekebook Puerto Montt.",
+    "description": "Puzzle / Rompecabezas Sublimable disponible con stock real en Librería & Bazar Pekebook Puerto Montt.",
     "inStock": true
   },
   {
     "id": "peke-wa-30",
     "name": "Cinta Térmica para Sublimación",
-    "category": "sublimacion",
+    "category": "encuadernacion",
     "subcategories": [
-      "sublimacion",
-      "papeles-tintas"
+      "encuadernacion"
     ],
     "price": 2990,
     "originalPrice": 3600,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 15,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_30.jpg",
     "description": "cinta térmica para tus proyectos de sublimación",
     "inStock": true
@@ -631,17 +635,17 @@ export const PRODUCTS = [
     "category": "sublimacion",
     "subcategories": [
       "sublimacion",
-      "papeles-tintas"
+      "textil"
     ],
     "price": 1990,
     "originalPrice": 2400,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 16,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_31.jpg",
     "description": "jockey malla sublimable",
     "inStock": true
@@ -652,17 +656,18 @@ export const PRODUCTS = [
     "category": "sublimacion",
     "subcategories": [
       "sublimacion",
-      "papeles-tintas"
+      "papeles-tintas",
+      "libreria"
     ],
     "price": 3500,
     "originalPrice": 4200,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 17,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_32.jpg",
     "description": "tinta alternativa compatible con Epson canon y hp",
     "inStock": true
@@ -673,17 +678,18 @@ export const PRODUCTS = [
     "category": "sublimacion",
     "subcategories": [
       "sublimacion",
-      "papeles-tintas"
+      "papeles-tintas",
+      "libreria"
     ],
     "price": 3990,
     "originalPrice": 4800,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 18,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_33.jpg",
     "description": "tinta para sublimación",
     "inStock": true
@@ -691,19 +697,20 @@ export const PRODUCTS = [
   {
     "id": "peke-wa-34",
     "name": "Polera Algodón Niños y Adultos",
-    "category": "libreria",
+    "category": "sublimacion",
     "subcategories": [
-      "libreria"
+      "sublimacion",
+      "textil"
     ],
     "price": 4990,
     "originalPrice": 6000,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 19,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_34.jpg",
     "description": "poleras de algodón desde la talla 2 a la 2Xl variedad de colores",
     "inStock": true
@@ -718,13 +725,13 @@ export const PRODUCTS = [
     ],
     "price": 5990,
     "originalPrice": 7200,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 20,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_35.jpg",
     "description": "mate termico sublimable con bombilla",
     "inStock": true
@@ -739,13 +746,13 @@ export const PRODUCTS = [
     ],
     "price": 2990,
     "originalPrice": 3600,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 21,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_36.jpg",
     "description": "botella con succionador sublimable 600ml",
     "inStock": true
@@ -760,13 +767,13 @@ export const PRODUCTS = [
     ],
     "price": 4000,
     "originalPrice": 4800,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 22,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_37.jpg",
     "description": "shoperos magico, con agua fría baja la intensidad de color, empabonados",
     "inStock": true
@@ -781,13 +788,13 @@ export const PRODUCTS = [
     ],
     "price": 3990,
     "originalPrice": 4800,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 23,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_38.jpg",
     "description": "cantimplora plástica con placa metálica sublimable",
     "inStock": true
@@ -802,15 +809,15 @@ export const PRODUCTS = [
     ],
     "price": 2890,
     "originalPrice": 3500,
-    "badge": null,
-    "badgeType": "star",
+    "badge": "REAL FOTO",
+    "badgeType": "new",
     "rating": 4.9,
-    "reviewsCount": 25,
+    "reviewsCount": 24,
     "isMayorista": false,
-    "isOffer": true,
-    "isFeatured": true,
+    "isOffer": false,
+    "isFeatured": false,
     "image": "/products/catalog/real_prod_39.jpg",
-    "description": "Botella de Colores Sublimable disponible en Librería & Bazar Pekebook Puerto Montt.",
+    "description": "Botella de Colores Sublimable disponible con stock real en Librería & Bazar Pekebook Puerto Montt.",
     "inStock": true
   },
   {
@@ -1135,7 +1142,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://pekebook.cl/wp-content/uploads/elementor/thumbs/women-cutting-paper-in-printing-shop-DGH9QFZ-r92fgr3dae7xlos481bmv97akt0dyohyrmj9rhpykw.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Trae tus documentos o tesis y te los encuadernamos en pocos minutos con mica protectora transparente/ahumada y espiral a elección.",
     "inStock": true
   },
@@ -1155,7 +1162,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://pekebook.cl/wp-content/uploads/elementor/thumbs/freepik__create-a-professional-realistic-image-of-a-digital__15631-r92hgpmkhsq6f098153fr3hnqqbz8i67bshge30y8g.jpeg",
+    "image": "/placeholder-product.svg",
     "description": "Impresión de planos de arquitectura, láminas escolares, mapas o afiches gráficos en papel bond de 90g o fotográfico.",
     "inStock": true
   },
@@ -1175,7 +1182,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.organizateconabi.cl/cdn/shop/files/Temperas6ColoresGlitter.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1195,7 +1202,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.organizateconabi.cl/cdn/shop/files/Temperas6ColoresGlitter.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1215,7 +1222,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://tienda.artel.cl/cdn/shop/files/10020988-2_6d132cab-0032-4510-9177-a5545c1f0a88.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1235,7 +1242,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://tienda.artel.cl/cdn/shop/files/10020944-1_1_287f4e57-e340-493b-88a6-84c60337d7be.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1255,7 +1262,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://nacional.cl/cdn/shop/files/fco-250-ml-temp-amarillo-limon-72-artel-nacional-libreria-797519.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1275,7 +1282,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://tienda.artel.cl/cdn/shop/files/10020954-2_033a5175-6ae6-4aa3-b2ca-dd77f8bcae54.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1295,7 +1302,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://i5.walmartimages.cl/asr/a6f90f6d-89cd-4386-af8b-64f954163c60.3be819e75b84480ca74ceb6e2ffd6bf4.jpeg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1315,7 +1322,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://tienda.artel.cl/cdn/shop/files/10020921-1_69b62c46-00c8-4561-a195-a5302f1ff8e8.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1335,7 +1342,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://conveniomarco.mercadopublico.cl/media/catalog/product/4/5/4503813.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1375,7 +1382,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://i5.walmartimages.cl/asr/0b7ad38b-4993-44f7-819c-e5d8dda64dd5.1ad89700c2c24f76091ec6b1079b436c.jpeg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1395,7 +1402,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dojiw2m9tvv09.cloudfront.net/116419/product/F_5191325699.png",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1435,7 +1442,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dojiw2m9tvv09.cloudfront.net/116419/product/F_5191325699.png",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1455,7 +1462,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.durban.cl/assets/img/productos/pub/05088277-1.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1475,7 +1482,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://i5.walmartimages.cl/asr/3fb736e8-61d8-4f88-8a79-72acde49c3fc.f99ab9f2c5f99715186cc1c46a57c83a.jpeg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1495,7 +1502,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dojiw2m9tvv09.cloudfront.net/116419/product/F_5191325699.png",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1515,7 +1522,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dojiw2m9tvv09.cloudfront.net/116419/product/F_5191325699.png",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1535,7 +1542,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dojiw2m9tvv09.cloudfront.net/116419/product/F_5191325699.png",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1555,7 +1562,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dojiw2m9tvv09.cloudfront.net/12806/product/11012358707.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Plasticina de consistencia suave y fácil de moldear. No mancha las manos, no se reseca y es ideal para actividades escolares y recreativas.",
     "inStock": true
   },
@@ -1575,7 +1582,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dojiw2m9tvv09.cloudfront.net/12806/product/11012358707.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Plasticina de consistencia suave y fácil de moldear. No mancha las manos, no se reseca y es ideal para actividades escolares y recreativas.",
     "inStock": true
   },
@@ -1595,7 +1602,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dojiw2m9tvv09.cloudfront.net/12806/product/11012358707.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Plasticina de consistencia suave y fácil de moldear. No mancha las manos, no se reseca y es ideal para actividades escolares y recreativas.",
     "inStock": true
   },
@@ -1615,7 +1622,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://i5.walmartimages.cl/asr/3fb736e8-61d8-4f88-8a79-72acde49c3fc.f99ab9f2c5f99715186cc1c46a57c83a.jpeg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1635,7 +1642,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://libreriaoceano.cl/cdn/shop/files/30617-a-1024x1024.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1655,7 +1662,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://nacional.cl/cdn/shop/files/fco-250-ml-temp-amarillo-limon-72-artel-nacional-libreria-797519.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1675,7 +1682,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://tienda.artel.cl/cdn/shop/files/10020944-1_1_287f4e57-e340-493b-88a6-84c60337d7be.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1695,7 +1702,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dojiw2m9tvv09.cloudfront.net/116419/product/F_5191325699.png",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1715,7 +1722,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dojiw2m9tvv09.cloudfront.net/116419/product/F_5191325699.png",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1735,7 +1742,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://tienda.artel.cl/cdn/shop/files/10020944-1_1_287f4e57-e340-493b-88a6-84c60337d7be.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1755,7 +1762,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://tienda.artel.cl/cdn/shop/files/10020944-1_1_287f4e57-e340-493b-88a6-84c60337d7be.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1775,7 +1782,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://tienda.artel.cl/cdn/shop/files/10020944-1_1_287f4e57-e340-493b-88a6-84c60337d7be.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1795,7 +1802,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://tienda.artel.cl/cdn/shop/files/10020944-1_1_287f4e57-e340-493b-88a6-84c60337d7be.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1815,7 +1822,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://tienda.artel.cl/cdn/shop/files/10020944-1_1_287f4e57-e340-493b-88a6-84c60337d7be.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Témpera escolar de colores vivos, secado uniforme y gran poder cubriente. No tóxica y lavable sobre la mayoría de las telas.",
     "inStock": true
   },
@@ -1835,7 +1842,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dojiw2m9tvv09.cloudfront.net/12806/product/11012358707.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Plasticina de consistencia suave y fácil de moldear. No mancha las manos, no se reseca y es ideal para actividades escolares y recreativas.",
     "inStock": true
   },
@@ -1875,7 +1882,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dojiw2m9tvv09.cloudfront.net/12806/product/11012358707.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Plasticina de consistencia suave y fácil de moldear. No mancha las manos, no se reseca y es ideal para actividades escolares y recreativas.",
     "inStock": true
   },
@@ -1895,7 +1902,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dojiw2m9tvv09.cloudfront.net/12806/product/11012358707.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Plasticina de consistencia suave y fácil de moldear. No mancha las manos, no se reseca y es ideal para actividades escolares y recreativas.",
     "inStock": true
   },
@@ -1915,7 +1922,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://acdn.mitiendanube.com/stores/001/931/711/products/img_20230927_090121820_mf_portrait21-c4c7facdf2e52dda1616958168679630-640-0.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Plasticina de consistencia suave y fácil de moldear. No mancha las manos, no se reseca y es ideal para actividades escolares y recreativas.",
     "inStock": true
   },
@@ -1935,7 +1942,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://acdn.mitiendanube.com/stores/001/931/711/products/img_20230927_090121820_mf_portrait21-c4c7facdf2e52dda1616958168679630-640-0.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Lápices de cera y crayones de trazo suave y colores brillantes. Diseñados ergonómicamente para un agarre cómodo y firme.",
     "inStock": true
   },
@@ -1955,7 +1962,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://nacional.cl/cdn/shop/files/20100010-4.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Lápices de cera y crayones de trazo suave y colores brillantes. Diseñados ergonómicamente para un agarre cómodo y firme.",
     "inStock": true
   },
@@ -1975,7 +1982,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://nacional.cl/cdn/shop/files/20100010-4.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Lápices de cera y crayones de trazo suave y colores brillantes. Diseñados ergonómicamente para un agarre cómodo y firme.",
     "inStock": true
   },
@@ -1995,7 +2002,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://nacional.cl/cdn/shop/files/20100010-4.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Lápices de cera y crayones de trazo suave y colores brillantes. Diseñados ergonómicamente para un agarre cómodo y firme.",
     "inStock": true
   },
@@ -2015,7 +2022,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://nacional.cl/cdn/shop/files/20100010-4.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Lápices de cera y crayones de trazo suave y colores brillantes. Diseñados ergonómicamente para un agarre cómodo y firme.",
     "inStock": true
   },
@@ -2035,7 +2042,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.officedirect.ro/image/cache/catalog/creta-scolara-colorata-anti-dust-100-buc-s-cool-2000x2000.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Tizas cilíndricas compactas con tecnología anti-polvo para una escritura nítida en pizarras tradicionales y tableros.",
     "inStock": true
   },
@@ -2055,7 +2062,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.officedirect.ro/image/cache/catalog/creta-scolara-colorata-anti-dust-100-buc-s-cool-2000x2000.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Tizas cilíndricas compactas con tecnología anti-polvo para una escritura nítida en pizarras tradicionales y tableros.",
     "inStock": true
   },
@@ -2075,7 +2082,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.officedirect.ro/image/cache/catalog/creta-scolara-colorata-anti-dust-100-buc-s-cool-2000x2000.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Tizas cilíndricas compactas con tecnología anti-polvo para una escritura nítida en pizarras tradicionales y tableros.",
     "inStock": true
   },
@@ -2195,7 +2202,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://cdn.dimerc.cl/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/l/cl_124465.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Insumo de papelería y manualidades Fultons ideal para correspondencia, organización de registros y manualidades escolares.",
     "inStock": true
   },
@@ -2235,7 +2242,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.laplazapapeleria.com/cdn/shop/files/PizarraMagenticaProarte35_6x28cms3.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Artículo de bazar y escritorio Art & Craft. Práctico, durable y diseñado para el día a día en el hogar, colegio o comercio.",
     "inStock": true
   },
@@ -2255,7 +2262,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.laplazapapeleria.com/cdn/shop/files/PizarraMagenticaProarte35_6x28cms3.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Artículo de bazar y escritorio Art & Craft. Práctico, durable y diseñado para el día a día en el hogar, colegio o comercio.",
     "inStock": true
   },
@@ -2296,7 +2303,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.durban.cl/assets/img/productos/pub/05013181-2.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Papeles de corte exacto y colores intensos para técnicas de plegado origami, maquetas y actividades de expresión artística.",
     "inStock": true
   },
@@ -2317,7 +2324,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.durban.cl/assets/img/productos/pub/05013181-2.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Papeles de corte exacto y colores intensos para técnicas de plegado origami, maquetas y actividades de expresión artística.",
     "inStock": true
   },
@@ -2338,7 +2345,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.durban.cl/assets/img/productos/pub/05013181-2.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Papeles de corte exacto y colores intensos para técnicas de plegado origami, maquetas y actividades de expresión artística.",
     "inStock": true
   },
@@ -2359,7 +2366,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.durban.cl/assets/img/productos/pub/05013181-2.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Insumo de papelería y manualidades Lavoro ideal para correspondencia, organización de registros y manualidades escolares.",
     "inStock": true
   },
@@ -2379,7 +2386,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://d22fxaf9t8d39k.cloudfront.net/0ae804c9389728dfca8a2a1896d34d235a1d84867a7aba1fad5223f673af27d26577.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Cinta correctora ergonómica de aplicación limpia en seco. Permite reescribir inmediatamente sobre cualquier tipo de papel.",
     "inStock": true
   },
@@ -2399,7 +2406,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://d22fxaf9t8d39k.cloudfront.net/0ae804c9389728dfca8a2a1896d34d235a1d84867a7aba1fad5223f673af27d26577.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Cinta correctora ergonómica de aplicación limpia en seco. Permite reescribir inmediatamente sobre cualquier tipo de papel.",
     "inStock": true
   },
@@ -2419,7 +2426,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://d22fxaf9t8d39k.cloudfront.net/0ae804c9389728dfca8a2a1896d34d235a1d84867a7aba1fad5223f673af27d26577.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Cinta correctora ergonómica de aplicación limpia en seco. Permite reescribir inmediatamente sobre cualquier tipo de papel.",
     "inStock": true
   },
@@ -2439,7 +2446,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.laplazapapeleria.com/cdn/shop/files/PizarraMagenticaProarte35_6x28cms3.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Accesorio funcional de escritorio Rhein para mantener la eficiencia y pulcritud en tu lugar de trabajo.",
     "inStock": true
   },
@@ -2459,7 +2466,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.laplazapapeleria.com/cdn/shop/files/PizarraMagenticaProarte35_6x28cms3.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Accesorio funcional de escritorio Rhein para mantener la eficiencia y pulcritud en tu lugar de trabajo.",
     "inStock": true
   },
@@ -2479,7 +2486,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://cdn.dimerc.cl/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/l/cl_569106_3.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Insumo de papelería y manualidades Fultons ideal para correspondencia, organización de registros y manualidades escolares.",
     "inStock": true
   },
@@ -2499,7 +2506,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://distribuidor.dimeiggs.cl/cdn/shop/files/104455_800x.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Insumo de papelería y manualidades Fultons ideal para correspondencia, organización de registros y manualidades escolares.",
     "inStock": true
   },
@@ -2519,7 +2526,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://distribuidor.dimeiggs.cl/cdn/shop/files/104455_800x.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Insumo de papelería y manualidades Fultons ideal para correspondencia, organización de registros y manualidades escolares.",
     "inStock": true
   },
@@ -2539,7 +2546,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://distribuidor.dimeiggs.cl/cdn/shop/files/104455_800x.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Insumo de papelería y manualidades Fultons ideal para correspondencia, organización de registros y manualidades escolares.",
     "inStock": true
   },
@@ -2579,7 +2586,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.officedirect.ro/image/cache/catalog/creta-scolara-colorata-anti-dust-100-buc-s-cool-2000x2000.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Tizas cilíndricas compactas con tecnología anti-polvo para una escritura nítida en pizarras tradicionales y tableros.",
     "inStock": true
   },
@@ -2599,7 +2606,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.officedirect.ro/image/cache/catalog/creta-scolara-colorata-anti-dust-100-buc-s-cool-2000x2000.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Tizas cilíndricas compactas con tecnología anti-polvo para una escritura nítida en pizarras tradicionales y tableros.",
     "inStock": true
   },
@@ -2619,7 +2626,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.ofimaster.cl/cdn/shop/files/00e3763a0c5713e0f5d6312417fe604a.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Accesorio funcional de escritorio Fultons para mantener la eficiencia y pulcritud en tu lugar de trabajo.",
     "inStock": true
   },
@@ -2639,7 +2646,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.ofimaster.cl/cdn/shop/files/00e3763a0c5713e0f5d6312417fe604a.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Accesorio funcional de escritorio Fultons para mantener la eficiencia y pulcritud en tu lugar de trabajo.",
     "inStock": true
   },
@@ -2659,7 +2666,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.ofimaster.cl/cdn/shop/files/00e3763a0c5713e0f5d6312417fe604a.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Accesorio funcional de escritorio Fultons para mantener la eficiencia y pulcritud en tu lugar de trabajo.",
     "inStock": true
   },
@@ -2679,7 +2686,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.ofimaster.cl/cdn/shop/files/00e3763a0c5713e0f5d6312417fe604a.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Accesorio funcional de escritorio Fultons para mantener la eficiencia y pulcritud en tu lugar de trabajo.",
     "inStock": true
   },
@@ -2700,7 +2707,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.unicols.com/cdn/shop/products/faber-castell-stamp-pad-ink-ink-scooboo-617421.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Tampón entintado para timbrado de documentos y registros oficiales con nitidez uniforme y secado rápido.",
     "inStock": true
   },
@@ -2721,7 +2728,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.unicols.com/cdn/shop/products/faber-castell-stamp-pad-ink-ink-scooboo-617421.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Tampón entintado para timbrado de documentos y registros oficiales con nitidez uniforme y secado rápido.",
     "inStock": true
   },
@@ -2742,7 +2749,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.officedepot.com.pa/medias/9930.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Accesorio funcional de escritorio Fultons para mantener la eficiencia y pulcritud en tu lugar de trabajo.",
     "inStock": true
   },
@@ -2762,7 +2769,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.officedepot.com.pa/medias/9930.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Herramienta comercial Fultons de construcción robusta para tareas continuas en almacenes, oficinas y puntos de venta.",
     "inStock": true
   },
@@ -2782,7 +2789,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://kopierpapier.de/media/image/product/21706/lg/p-laeufer-blattwender-gr-2-durchmesser-15-mm-gruen-.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Accesorio funcional de escritorio Fultons para mantener la eficiencia y pulcritud en tu lugar de trabajo.",
     "inStock": true
   },
@@ -2802,7 +2809,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://kopierpapier.de/media/image/product/21706/lg/p-laeufer-blattwender-gr-2-durchmesser-15-mm-gruen-.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Accesorio funcional de escritorio Fultons para mantener la eficiencia y pulcritud en tu lugar de trabajo.",
     "inStock": true
   },
@@ -2822,7 +2829,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://rokbucket.rokomari.io/ProductNew20190903/260X372/Finger_Moistener_For_Paper_Wet_Sponge-Non_Brand-06d07-349959.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Accesorio funcional de escritorio Fultons para mantener la eficiencia y pulcritud en tu lugar de trabajo.",
     "inStock": true
   },
@@ -2842,7 +2849,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://images.tcdn.com.br/img/img_prod/1211391/almofada_carimbo_n03_preta_masterprint_tampa_metal_preto_mp_773_masterprint_10993_1_b3c5eff2f363e3facdb66d6c7654c486.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Tampón entintado para timbrado de documentos y registros oficiales con nitidez uniforme y secado rápido.",
     "inStock": true
   },
@@ -2862,7 +2869,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://images.tcdn.com.br/img/img_prod/1211391/almofada_carimbo_n03_preta_masterprint_tampa_metal_preto_mp_773_masterprint_10993_1_b3c5eff2f363e3facdb66d6c7654c486.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Tampón entintado para timbrado de documentos y registros oficiales con nitidez uniforme y secado rápido.",
     "inStock": true
   },
@@ -2882,7 +2889,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://images.tcdn.com.br/img/img_prod/1211391/almofada_carimbo_n03_preta_masterprint_tampa_metal_preto_mp_773_masterprint_10993_1_b3c5eff2f363e3facdb66d6c7654c486.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Tampón entintado para timbrado de documentos y registros oficiales con nitidez uniforme y secado rápido.",
     "inStock": true
   },
@@ -2902,7 +2909,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.dipy.cl/cdn/shop/products/cl_u447460_1.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Talonario encolado con microperforado para desprendimiento fácil. Ideal para control de caja chica y comprobantes de dinero.",
     "inStock": true
   },
@@ -2922,7 +2929,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.dipy.cl/cdn/shop/products/cl_u447460_1.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Talonario encolado con microperforado para desprendimiento fácil. Ideal para control de caja chica y comprobantes de dinero.",
     "inStock": true
   },
@@ -2942,7 +2949,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.ofimaster.cl/cdn/shop/files/00e3763a0c5713e0f5d6312417fe604a.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Accesorio funcional de escritorio Fultons para mantener la eficiencia y pulcritud en tu lugar de trabajo.",
     "inStock": true
   },
@@ -2962,7 +2969,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dimeiggsschl.vtexassets.com/arquivos/ids/173056/542707-01.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Notas adhesivas reposicionables de excelente fijación que se retiran sin dejar residuos. Ideales para recordatorios y organización.",
     "inStock": true
   },
@@ -2982,7 +2989,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://cdn11.bigcommerce.com/s-k4as3uan8i/images/stencil/1920w/products/1176/2889/81100-08-plastic-key-ID-Tag-swivel__42073.1600096705.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Artículo de bazar y escritorio Lavoro. Práctico, durable y diseñado para el día a día en el hogar, colegio o comercio.",
     "inStock": true
   },
@@ -3002,7 +3009,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://papeleriaedal.com/cdn/shop/files/ROSA-AMARILLO_05870a07-baad-4ab2-9318-7edd63460b09.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Herramienta comercial Lavoro de construcción robusta para tareas continuas en almacenes, oficinas y puntos de venta.",
     "inStock": true
   },
@@ -3022,7 +3029,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://s3.amazonaws.com/bsalemarket/28201/product/401423default.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Herramienta comercial Lavoro de construcción robusta para tareas continuas en almacenes, oficinas y puntos de venta.",
     "inStock": true
   },
@@ -3042,7 +3049,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dimeiggsschl.vtexassets.com/arquivos/ids/173056/542707-01.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Notas adhesivas reposicionables de excelente fijación que se retiran sin dejar residuos. Ideales para recordatorios y organización.",
     "inStock": true
   },
@@ -3062,7 +3069,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dimeiggsschl.vtexassets.com/arquivos/ids/173056/542707-01.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Notas adhesivas reposicionables de excelente fijación que se retiran sin dejar residuos. Ideales para recordatorios y organización.",
     "inStock": true
   },
@@ -3082,7 +3089,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dimeiggsschl.vtexassets.com/arquivos/ids/173056/542707-01.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Notas adhesivas reposicionables de excelente fijación que se retiran sin dejar residuos. Ideales para recordatorios y organización.",
     "inStock": true
   },
@@ -3102,7 +3109,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dimeiggsschl.vtexassets.com/arquivos/ids/173056/542707-01.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Notas adhesivas reposicionables de excelente fijación que se retiran sin dejar residuos. Ideales para recordatorios y organización.",
     "inStock": true
   },
@@ -3122,7 +3129,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dimeiggsschl.vtexassets.com/arquivos/ids/173056/542707-01.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Notas adhesivas reposicionables de excelente fijación que se retiran sin dejar residuos. Ideales para recordatorios y organización.",
     "inStock": true
   },
@@ -3142,7 +3149,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dimeiggsschl.vtexassets.com/arquivos/ids/173056/542707-01.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Notas adhesivas reposicionables de excelente fijación que se retiran sin dejar residuos. Ideales para recordatorios y organización.",
     "inStock": true
   },
@@ -3162,7 +3169,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dimeiggsschl.vtexassets.com/arquivos/ids/173056/542707-01.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Notas adhesivas reposicionables de excelente fijación que se retiran sin dejar residuos. Ideales para recordatorios y organización.",
     "inStock": true
   },
@@ -3182,7 +3189,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dimeiggsschl.vtexassets.com/arquivos/ids/173056/542707-01.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Notas adhesivas reposicionables de excelente fijación que se retiran sin dejar residuos. Ideales para recordatorios y organización.",
     "inStock": true
   },
@@ -3202,7 +3209,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dimeiggsschl.vtexassets.com/arquivos/ids/173056/542707-01.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Notas adhesivas reposicionables de excelente fijación que se retiran sin dejar residuos. Ideales para recordatorios y organización.",
     "inStock": true
   },
@@ -3222,7 +3229,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dimeiggsschl.vtexassets.com/arquivos/ids/173056/542707-01.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Notas adhesivas reposicionables de excelente fijación que se retiran sin dejar residuos. Ideales para recordatorios y organización.",
     "inStock": true
   },
@@ -3262,7 +3269,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dimeiggsschl.vtexassets.com/arquivos/ids/173056/542707-01.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Notas adhesivas reposicionables de excelente fijación que se retiran sin dejar residuos. Ideales para recordatorios y organización.",
     "inStock": true
   },
@@ -3282,7 +3289,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dimeiggsschl.vtexassets.com/arquivos/ids/173056/542707-01.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Notas adhesivas reposicionables de excelente fijación que se retiran sin dejar residuos. Ideales para recordatorios y organización.",
     "inStock": true
   },
@@ -3302,7 +3309,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dimeiggsschl.vtexassets.com/arquivos/ids/173056/542707-01.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Notas adhesivas reposicionables de excelente fijación que se retiran sin dejar residuos. Ideales para recordatorios y organización.",
     "inStock": true
   },
@@ -3322,7 +3329,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://dimeiggsschl.vtexassets.com/arquivos/ids/173056/542707-01.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Accesorio funcional de escritorio Lavoro para mantener la eficiencia y pulcritud en tu lugar de trabajo.",
     "inStock": true
   },
@@ -3342,7 +3349,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3362,7 +3369,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3382,7 +3389,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3402,7 +3409,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3422,7 +3429,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3442,7 +3449,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3462,7 +3469,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3482,7 +3489,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3502,7 +3509,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3522,7 +3529,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3542,7 +3549,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3562,7 +3569,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3582,7 +3589,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3602,7 +3609,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3622,7 +3629,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3642,7 +3649,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3662,7 +3669,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3682,7 +3689,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3702,7 +3709,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3722,7 +3729,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://media.deskidea.com/product/carpeta-liderpapel-dossier-pinza-lateral-polipropileno-din-a4-celeste-opaco-30-hojas-pinza-deslizante_Q1eXQX7.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Carpeta organizadora de alta resistencia para proteger y clasificar documentos, presentaciones y contratos en el estudio o trabajo.",
     "inStock": true
   },
@@ -3973,7 +3980,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.dipy.cl/cdn/shop/products/cl_u447460_1.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Libro manifold autocopiativo triplicado foliado para emisión de comprobantes, recibos internos o notas de entrega.",
     "inStock": true
   },
@@ -3993,7 +4000,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.dipy.cl/cdn/shop/products/cl_u447460_1.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Libro para registro y control de entrada y salida de correspondencia, encomiendas y documentos en recepciones.",
     "inStock": true
   },
@@ -4013,7 +4020,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.dipy.cl/cdn/shop/products/cl_u447460_1.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Libro de asistencia reglamentario con hojas foliadas de alta calidad para el control laboral según la normativa de la Dirección del Trabajo.",
     "inStock": true
   },
@@ -4033,7 +4040,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.dipy.cl/cdn/shop/products/cl_u447460_1.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Libro de asistencia reglamentario con hojas foliadas de alta calidad para el control laboral según la normativa de la Dirección del Trabajo.",
     "inStock": true
   },
@@ -4053,7 +4060,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.dipy.cl/cdn/shop/products/cl_u447460_1.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Libro de actas institucional empastado con hojas numeradas para registro de sesiones, asambleas comunitarias y juntas de vecinos.",
     "inStock": true
   },
@@ -4074,7 +4081,7 @@ export const PRODUCTS = [
     "isMayorista": false,
     "isOffer": false,
     "isFeatured": false,
-    "image": "https://www.dipy.cl/cdn/shop/products/cl_u447460_1.jpg",
+    "image": "/placeholder-product.svg",
     "description": "Libro de actas institucional empastado con hojas numeradas para registro de sesiones, asambleas comunitarias y juntas de vecinos.",
     "inStock": true
   },
@@ -4845,5 +4852,3 @@ export const PRODUCTS = [
     "inStock": true
   }
 ];
-
-export const KITS_HIGHLIGHT = PRODUCTS.filter(p => p.category === 'kits-emprende' || p.badgeType === 'star' || (p.isOffer && p.price > 50000));
