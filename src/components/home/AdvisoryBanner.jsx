@@ -26,19 +26,19 @@ export const AdvisoryBanner = () => {
             title="Enviar email a contacto@pekebook.cl"
           />
 
-          {/* Button: +56 9 6748 6503 */}
+          {/* Button: +56 9 4176 4653 */}
           <a
-            href="https://wa.me/56967486503?text=Hola%20PekeBook,%20necesito%20ayuda%20con%20mi%20compra%20o%20proyecto"
+            href="https://wa.me/56941764653?text=Hola%20PekeBook,%20necesito%20ayuda%20con%20mi%20compra%20o%20proyecto"
             target="_blank"
             rel="noopener noreferrer"
             className="pointer-events-auto absolute left-[29.5%] top-[58.5%] w-[17.5%] h-[15.5%] rounded-full cursor-pointer hover:opacity-85 focus:outline-none focus:ring-2 focus:ring-pink-300 transition-opacity"
-            aria-label="Llamar o escribir al WhatsApp +56 9 6748 6503"
-            title="WhatsApp / Teléfono: +56 9 6748 6503"
+            aria-label="Llamar o escribir al WhatsApp +56 9 4176 4653"
+            title="WhatsApp / Teléfono: +56 9 4176 4653"
           />
 
           {/* Address in Card */}
           <a
-            href="https://maps.google.com/?q=Ma%C3%B1ihual+285,+Puerto+Montt"
+            href="https://maps.google.com/maps?q=Avenida%20Gabriela%20Mistral%20957%2C%20Puerto%20Montt%2C%20Chile."
             target="_blank"
             rel="noopener noreferrer"
             className="pointer-events-auto absolute left-[59%] top-[19%] w-[31%] h-[17%] rounded-xl cursor-pointer hover:bg-white/20 transition-colors"
@@ -56,10 +56,10 @@ export const AdvisoryBanner = () => {
 
           {/* Phone in Card */}
           <a
-            href="tel:+56967486503"
+            href="tel:+56941764653"
             className="pointer-events-auto absolute left-[59%] top-[63%] w-[23%] h-[15%] rounded-xl cursor-pointer hover:bg-white/20 transition-colors"
-            aria-label="Llamar a +56 9 6748 6503"
-            title="+56 9 6748 6503"
+            aria-label="Llamar a +56 9 4176 4653"
+            title="+56 9 4176 4653"
           />
         </div>
       </div>

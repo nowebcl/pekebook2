@@ -15,7 +15,7 @@ export const WhatsAppFloating = () => {
               ¿Dudas con tu compra? 🌸
             </p>
             <p className="text-[11px] text-gray-600 mt-0.5">
-              ¡Escríbenos a WhatsApp (+56 9 6748 6503) y te asesoramos en vivo!
+              ¡Escríbenos a WhatsApp (+56 9 4176 4653) y te asesoramos en vivo!
             </p>
           </div>
           <button
@@ -30,7 +30,7 @@ export const WhatsAppFloating = () => {
 
       {/* Pulsing Floating Button */}
       <a
-        href="https://wa.me/56967486503?text=Hola%20Pekebook,%20vengo%20desde%20la%20p%C3%A1gina%20web%20y%20tengo%20una%20consulta"
+        href="https://wa.me/56941764653?text=Hola%20Pekebook,%20vengo%20desde%20la%20p%C3%A1gina%20web%20y%20tengo%20una%20consulta"
         target="_blank"
         rel="noopener noreferrer"
         className="pointer-events-auto group relative w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white flex items-center justify-center shadow-xl shadow-emerald-300 hover:scale-110 active:scale-95 transition-all duration-300"

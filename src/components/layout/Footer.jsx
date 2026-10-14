@@ -19,10 +19,11 @@ export const Footer = () => {
         </div>
 
         <div>
-          <h3>Contacto</h3>
-          <a href="tel:+56967486503">+56 9 6748 6503</a>
+          <h3>Contacto & Sucursales</h3>
+          <a href="tel:+56941764653">+56 9 4176 4653</a>
           <a href="mailto:contacto@pekebook.cl">contacto@pekebook.cl</a>
-          <p>Mañihual 285, Local 3, Puerto Montt, Chile.</p>
+          <p><strong>Peke 1:</strong> Av. Gabriela Mistral 957, Local 7</p>
+          <p><strong>Peke 2:</strong> Av. Violeta Parra, Local 1</p>
         </div>
 
         <div>

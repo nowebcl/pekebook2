@@ -38,7 +38,7 @@ export const QuoteBuilder = () => {
 
     msg += `\n¿Me podrían confirmar disponibilidad y valores? ¡Muchas gracias! ✨`;
 
-    return `https://wa.me/56967486503?text=${encodeURIComponent(msg)}`;
+    return `https://wa.me/56941764653?text=${encodeURIComponent(msg)}`;
   };
 
   return (

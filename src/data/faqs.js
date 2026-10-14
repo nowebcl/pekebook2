@@ -11,7 +11,7 @@ export const FAQS = [
   },
   {
     question: '¿Dónde está ubicada la tienda física y cuáles son los horarios?',
-    answer: 'Nuestra tienda física y taller está ubicada en Mañihual 285, Local 3, Puerto Montt, Chile. Atendemos de Lunes a Viernes de 09:30 a 18:30 hrs y Sábados de 10:00 a 14:00 hrs. ¡Puedes venir a retirar tus compras web de forma totalmente gratuita!',
+    answer: 'Nuestras tiendas físicas están ubicadas en Peke 1: Av. Gabriela Mistral 957, Local 7 y Peke 2: Av. Violeta Parra, Local 1, Puerto Montt, Chile. Atendemos de Lunes a Viernes de 09:30 a 19:30 hrs y Sábados de 10:00 a 16:00 hrs. ¡Puedes venir a retirar tus compras web de forma totalmente gratuita!',
     category: 'tienda'
   },
   {

@@ -17,7 +17,7 @@ export const QuickViewModal = () => {
     openCart();
   };
 
-  const whatsappDirectQuery = `https://wa.me/56967486503?text=${encodeURIComponent(
+  const whatsappDirectQuery = `https://wa.me/56941764653?text=${encodeURIComponent(
     `¡Hola Pekebook! Tengo una consulta sobre el producto "${product.name}" ($${product.price.toLocaleString('es-CL')} CLP). ¿Tienen stock en la tienda de Puerto Montt?`
   )}`;
 
@@ -169,9 +169,9 @@ export const QuickViewModal = () => {
                 <span>Consultar dudas de este producto por WhatsApp</span>
               </a>
 
-              <div className="flex items-center justify-center gap-1.5 text-[10px] text-gray-400 pt-1">
-                <Truck className="w-3 h-3 text-pink-400" />
-                <span>Retiro gratis en Mañihual 285, Local 3, Puerto Montt</span>
+              <div className="flex items-center justify-center gap-1.5 text-[10px] text-gray-500 pt-1 text-center">
+                <Truck className="w-3 h-3 text-pink-400 shrink-0" />
+                <span>Retiro gratis en Peke 1 (Gabriela Mistral 957) o Peke 2 (Violeta Parra 1)</span>
               </div>
             </div>
 

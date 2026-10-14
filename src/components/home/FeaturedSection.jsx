@@ -1,144 +1,26 @@
-import React from 'react';
-import { ShoppingBag, Heart, Eye } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { ShoppingBag, Heart, Eye, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useCart } from '../../context/CartContext';
 
-const REDESIGN_PRODUCTS = [
-  {
-    id: 'pack-tazones-sublimacion-12',
-    name: 'Caja 12 Tazones Blancos 11oz AAA Sublimación',
-    badge: 'MAYORISTA',
-    price: 18990,
-    originalPrice: 22990,
-    description: 'Cerámica brillante blanca de alta calidad para estampados con colores vivos y resistentes al lavavajillas.',
-    image: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80',
-    category: 'sublimacion',
-    subcategories: ['sublimacion', 'blanks']
-  },
-  {
-    id: 'tazon-magico-sublimar',
-    name: 'Tazón Mágico Negro Mate 11oz Sublimable',
-    badge: 'MÁS VENDIDO',
-    price: 2990,
-    originalPrice: 3890,
-    description: 'Revela la imagen personalizada al contacto con líquido caliente. Acabado suave de alta fidelidad.',
-    image: 'https://images.unsplash.com/photo-1577937927133-66ef06acdf18?auto=format&fit=crop&w=600&q=80',
-    category: 'sublimacion',
-    subcategories: ['sublimacion', 'blanks']
-  },
-  {
-    id: 'botella-aluminio-blanca-600',
-    name: 'Botella Deportiva Aluminio Blanca 600ml',
-    badge: 'BLANKS',
-    price: 3990,
-    originalPrice: 4990,
-    description: 'Botella de aluminio lista para sublimar con tapa deportiva y mosquetón incluido.',
-    image: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=600&q=80',
-    category: 'sublimacion',
-    subcategories: ['sublimacion', 'blanks']
-  },
-  {
-    id: 'papel-sublimacion-a4',
-    name: 'Resma Papel Sublimación Secado Rápido A4 (100 Hojas)',
-    badge: 'ALTA DEFINICIÓN',
-    price: 7990,
-    originalPrice: 9490,
-    description: 'Papel microporoso de 100g con secado instantáneo y transferencia de color superior al 95%.',
-    image: 'https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=600&q=80',
-    category: 'sublimacion',
-    subcategories: ['sublimacion', 'papeles-tintas']
-  },
-  {
-    id: 'tintas-sublimacion-cmyk',
-    name: 'Set 4 Tintas Sublimación CMYK 100ml Alta Densidad',
-    badge: 'OFERTA TALLER',
-    price: 16990,
-    originalPrice: 19990,
-    description: 'Pack de 4 botellas CMYK para impresoras Epson de sublimación. Negros puros y colores vibrantes.',
-    image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=600&q=80',
-    category: 'sublimacion',
-    subcategories: ['sublimacion', 'papeles-tintas']
-  },
-  {
-    id: 'cinta-termica-pack2',
-    name: 'Cinta Térmica Alta Temperatura 10mm (Pack 2 Rollos)',
-    badge: 'INDISPENSABLE',
-    price: 3490,
-    originalPrice: 4290,
-    description: 'Resiste hasta 260°C sin manchar ni dejar restos de pegamento en tus productos estampados.',
-    image: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=600&q=80',
-    category: 'sublimacion',
-    subcategories: ['sublimacion']
-  },
-  {
-    id: 'mousepad-sublimable',
-    name: 'Mouse Pad Rectangular 18x22cm para Sublimar',
-    badge: 'SUBLIMABLE',
-    price: 1990,
-    originalPrice: 2490,
-    description: 'Base de caucho antideslizante con cubierta textil blanca de alta definición para mousepads personalizados.',
-    image: 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=600&q=80',
-    category: 'sublimacion',
-    subcategories: ['sublimacion', 'blanks']
-  },
-  {
-    id: 'cojin-textil-sublimable',
-    name: 'Funda Cojín Blanco 40x40cm Poliéster Sublimable',
-    badge: 'TEXTIL',
-    price: 3290,
-    originalPrice: 3990,
-    description: 'Tejido suave tipo lino con cierre invisible, ideal para fotos y estampados conmemorativos.',
-    image: 'https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=600&q=80',
-    category: 'sublimacion',
-    subcategories: ['sublimacion', 'blanks']
-  },
-  {
-    id: 'estampadora-plana-23x30',
-    name: 'Estampadora Plana Verde Pastel 23x30 cm Taller',
-    badge: 'MÁQUINAS',
-    price: 139990,
-    originalPrice: 159990,
-    description: 'Prensa térmica oscilante para poleras, rompecabezas, llaveros, placas y textiles.',
-    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80',
-    category: 'sublimacion',
-    subcategories: ['sublimacion']
-  },
-  {
-    id: 'anilladora-cinch-pro',
-    name: 'Anilladora Cinch Cuadrada + Alambres',
-    badge: 'ENCUADERNACIÓN',
-    price: 169990,
-    originalPrice: 189990,
-    description: 'Perforadora y anilladora manual para cuadernos, agendas y recetarios.',
-    image: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80',
-    category: 'encuadernacion',
-    subcategories: ['encuadernacion']
-  },
-  {
-    id: 'carton-piedra-pack-10',
-    name: 'Pack 10 Cartón Piedra 1.5mm A4',
-    badge: 'INSUMO',
-    price: 4990,
-    originalPrice: 5990,
-    description: 'Planchas de cartón prensado rígido para tapas duras de libretas.',
-    image: 'https://images.unsplash.com/photo-1607344645866-009c320b5ab8?auto=format&fit=crop&w=600&q=80',
-    category: 'encuadernacion',
-    subcategories: ['encuadernacion']
-  },
-  {
-    id: 'agenda-personalizada',
-    name: 'Agendas & Planificación PekeBook',
-    badge: 'DISEÑO',
-    price: 12990,
-    originalPrice: 14990,
-    description: 'Diseños prácticos y creativos para organizar tu día a día en Puerto Montt.',
-    image: 'https://pekebook.cl/wp-content/uploads/2025/07/491445813_17913224271098232_4509710459591268297_n-1.jpg',
-    category: 'libreria',
-    subcategories: ['libreria']
-  }
-];
+import { PRODUCTS } from '../../data/products';
+
+const REDESIGN_PRODUCTS = PRODUCTS;
 
 export const FeaturedSection = ({ activeCategory, onResetCategory, searchQuery = '', onClearSearch }) => {
   const { addToCart, setQuickViewProduct, toggleWishlist, isInWishlist } = useCart();
+  const ITEMS_PER_PAGE = 16;
+  const [currentPage, setCurrentPage] = useState(1);
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [activeCategory, searchQuery]);
+
+  const handlePageChange = (newPage) => {
+    if (newPage < 1 || newPage > totalPages || newPage === currentPage) return;
+    setCurrentPage(newPage);
+    const el = document.getElementById('productos');
+    if (el) el.scrollIntoView({ behavior: 'smooth' });
+  };
 
   const trimmedSearch = searchQuery.trim().toLowerCase();
 
@@ -156,6 +38,27 @@ export const FeaturedSection = ({ activeCategory, onResetCategory, searchQuery =
             (p.subcategories && p.subcategories.includes(activeCategory))
           )
         : REDESIGN_PRODUCTS);
+
+  const totalPages = Math.ceil(displayedProducts.length / ITEMS_PER_PAGE) || 1;
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const paginatedProducts = displayedProducts.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+
+  // Generador de páginas para paginación inteligente con elipsis
+  const getPageNumbers = () => {
+    const pages = [];
+    if (totalPages <= 7) {
+      for (let i = 1; i <= totalPages; i++) pages.push(i);
+    } else {
+      pages.push(1);
+      if (currentPage > 3) pages.push('...');
+      const start = Math.max(2, currentPage - 1);
+      const end = Math.min(totalPages - 1, currentPage + 1);
+      for (let i = start; i <= end; i++) pages.push(i);
+      if (currentPage < totalPages - 2) pages.push('...');
+      pages.push(totalPages);
+    }
+    return pages;
+  };
 
   return (
     <section id="productos" className="section section-soft">
@@ -289,7 +192,7 @@ export const FeaturedSection = ({ activeCategory, onResetCategory, searchQuery =
         )}
 
         <div className="product-grid">
-          {displayedProducts.map((product) => {
+          {paginatedProducts.map((product) => {
             const isWish = isInWishlist(product.id);
             return (
               <article key={product.id} className="product-card">
@@ -345,6 +248,72 @@ export const FeaturedSection = ({ activeCategory, onResetCategory, searchQuery =
             );
           })}
         </div>
+        {/* Controles de Paginación Oficial PekeBook */}
+        {totalPages > 1 && (
+          <div className="mt-10 pt-6 border-t border-pink-100 flex flex-col sm:flex-row items-center justify-between gap-4">
+            
+            {/* Contador de productos mostrados */}
+            <div className="text-xs text-gray-500 font-medium">
+              Mostrando <strong className="text-[#ee2b91]">{startIndex + 1} - {Math.min(startIndex + ITEMS_PER_PAGE, displayedProducts.length)}</strong> de <strong className="text-gray-800">{displayedProducts.length}</strong> insumos
+            </div>
+
+            {/* Botones de navegación numerados */}
+            <div className="flex items-center gap-1.5 select-none">
+              
+              {/* Botón Anterior */}
+              <button
+                type="button"
+                onClick={() => handlePageChange(currentPage - 1)}
+                disabled={currentPage === 1}
+                className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-heading font-bold transition-all disabled:opacity-40 disabled:cursor-not-allowed bg-white hover:bg-pink-50 text-gray-700 border border-pink-200 shadow-2xs"
+                aria-label="Página anterior"
+              >
+                <ChevronLeft className="w-3.5 h-3.5" />
+                <span className="hidden sm:inline">Anterior</span>
+              </button>
+
+              {/* Números de página */}
+              {getPageNumbers().map((p, idx) => {
+                if (p === '...') {
+                  return (
+                    <span key={'ellipsis-' + idx} className="px-2 py-1 text-xs text-gray-400 font-bold">
+                      …
+                    </span>
+                  );
+                }
+                const isActive = p === currentPage;
+                return (
+                  <button
+                    key={'page-' + p}
+                    type="button"
+                    onClick={() => handlePageChange(p)}
+                    className={`w-8 h-8 rounded-full text-xs font-heading font-extrabold flex items-center justify-center transition-all cursor-pointer ${
+                      isActive
+                        ? 'bg-[#ee2b91] text-white shadow-sm scale-105'
+                        : 'bg-white text-gray-700 hover:bg-pink-50 border border-pink-200'
+                    }`}
+                  >
+                    {p}
+                  </button>
+                );
+              })}
+
+              {/* Botón Siguiente */}
+              <button
+                type="button"
+                onClick={() => handlePageChange(currentPage + 1)}
+                disabled={currentPage === totalPages}
+                className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-heading font-bold transition-all disabled:opacity-40 disabled:cursor-not-allowed bg-white hover:bg-pink-50 text-gray-700 border border-pink-200 shadow-2xs"
+                aria-label="Página siguiente"
+              >
+                <span className="hidden sm:inline">Siguiente</span>
+                <ChevronRight className="w-3.5 h-3.5" />
+              </button>
+
+            </div>
+
+          </div>
+        )}
       </div>
     </section>
   );
