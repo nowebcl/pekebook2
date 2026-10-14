@@ -8,11 +8,11 @@ export const AdvisoryBanner = () => {
       {/* Full-width Horizontal Banner Container (Edge-to-Edge) */}
       <div className="w-full relative">
         <img
-          src="/ayuda-banner.png"
+          src="/c97f7e52-7f20-4c52-9d49-9ebdb6ebf992.png"
           alt="¿Necesitas ayuda con tu compra o proyecto? Escríbenos o visítanos en Puerto Montt - PekeBook"
           className="w-full h-auto block select-none object-contain sm:object-cover md:object-contain mx-auto"
           onError={(e) => {
-            e.target.src = 'https://pekebook.cl/wp-content/uploads/2025/07/Recurso-1.webp';
+            e.target.src = '/ayuda-banner.png';
           }}
         />
 
@@ -21,19 +21,19 @@ export const AdvisoryBanner = () => {
           {/* Button: Enviar email */}
           <a
             href="mailto:contacto@pekebook.cl"
-            className="pointer-events-auto absolute left-[8.2%] top-[58.5%] w-[19.5%] h-[15.5%] rounded-full cursor-pointer hover:opacity-85 focus:outline-none focus:ring-2 focus:ring-white transition-opacity"
+            className="pointer-events-auto absolute left-[8.2%] top-[64%] w-[20%] h-[16%] rounded-full cursor-pointer hover:opacity-85 focus:outline-none focus:ring-2 focus:ring-white transition-opacity"
             aria-label="Enviar email a contacto@pekebook.cl"
             title="Enviar email a contacto@pekebook.cl"
           />
 
-          {/* Button: +56 9 4176 4653 */}
+          {/* Button: Teléfono / WhatsApp */}
           <a
-            href="https://wa.me/56941764653?text=Hola%20PekeBook,%20necesito%20ayuda%20con%20mi%20compra%20o%20proyecto"
+            href="https://wa.me/56967486503?text=Hola%20PekeBook,%20necesito%20ayuda%20con%20mi%20compra%20o%20proyecto"
             target="_blank"
             rel="noopener noreferrer"
-            className="pointer-events-auto absolute left-[29.5%] top-[58.5%] w-[17.5%] h-[15.5%] rounded-full cursor-pointer hover:opacity-85 focus:outline-none focus:ring-2 focus:ring-pink-300 transition-opacity"
-            aria-label="Llamar o escribir al WhatsApp +56 9 4176 4653"
-            title="WhatsApp / Teléfono: +56 9 4176 4653"
+            className="pointer-events-auto absolute left-[30%] top-[64%] w-[17.5%] h-[16%] rounded-full cursor-pointer hover:opacity-85 focus:outline-none focus:ring-2 focus:ring-pink-300 transition-opacity"
+            aria-label="Llamar o escribir al WhatsApp +56 9 6748 6503"
+            title="WhatsApp / Teléfono: +56 9 6748 6503"
           />
 
           {/* Address in Card */}
@@ -41,25 +41,25 @@ export const AdvisoryBanner = () => {
             href="https://maps.google.com/maps?q=Avenida%20Gabriela%20Mistral%20957%2C%20Puerto%20Montt%2C%20Chile."
             target="_blank"
             rel="noopener noreferrer"
-            className="pointer-events-auto absolute left-[59%] top-[19%] w-[31%] h-[17%] rounded-xl cursor-pointer hover:bg-white/20 transition-colors"
-            aria-label="Ver dirección en Google Maps"
+            className="pointer-events-auto absolute left-[58.5%] top-[22%] w-[32%] h-[18%] rounded-xl cursor-pointer hover:bg-white/20 transition-colors"
+            aria-label="Ver sucursales Peke 1 y Peke 2 en Google Maps"
             title="Ver en Google Maps"
           />
 
           {/* Email in Card */}
           <a
             href="mailto:contacto@pekebook.cl"
-            className="pointer-events-auto absolute left-[59%] top-[41%] w-[27%] h-[15%] rounded-xl cursor-pointer hover:bg-white/20 transition-colors"
+            className="pointer-events-auto absolute left-[58.5%] top-[45%] w-[28%] h-[14%] rounded-xl cursor-pointer hover:bg-white/20 transition-colors"
             aria-label="Enviar correo a contacto@pekebook.cl"
             title="contacto@pekebook.cl"
           />
 
           {/* Phone in Card */}
           <a
-            href="tel:+56941764653"
-            className="pointer-events-auto absolute left-[59%] top-[63%] w-[23%] h-[15%] rounded-xl cursor-pointer hover:bg-white/20 transition-colors"
-            aria-label="Llamar a +56 9 4176 4653"
-            title="+56 9 4176 4653"
+            href="tel:+56967486503"
+            className="pointer-events-auto absolute left-[58.5%] top-[63%] w-[24%] h-[16%] rounded-xl cursor-pointer hover:bg-white/20 transition-colors"
+            aria-label="Llamar a +56 9 6748 6503"
+            title="+56 9 6748 6503"
           />
         </div>
       </div>
