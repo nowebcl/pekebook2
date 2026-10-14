@@ -46,7 +46,17 @@ export const Footer = () => {
 
       <div className="container footer-bottom">
         <span>© PekeBook · Puerto Montt, Chile</span>
-        <span>Propuesta visual inspirada en la referencia enviada.</span>
+        <span>
+          Desarrollado por{' '}
+          <a
+            href="https://www.instagram.com/noweb.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#ee2b91] hover:underline font-bold transition-colors"
+          >
+            @noweb.dev
+          </a>
+        </span>
       </div>
     </footer>
   );
