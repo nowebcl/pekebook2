@@ -2,11 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { ShoppingBag, Heart, Eye, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useCart } from '../../context/CartContext';
 
-import { PRODUCTS } from '../../data/products';
+import { useProducts } from '../../context/ProductsContext';
 
-const REDESIGN_PRODUCTS = PRODUCTS;
+
 
 export const FeaturedSection = ({ activeCategory, onResetCategory, searchQuery = '', onClearSearch }) => {
+  const { products: REDESIGN_PRODUCTS } = useProducts();
   const { addToCart, setQuickViewProduct, toggleWishlist, isInWishlist } = useCart();
   const ITEMS_PER_PAGE = 16;
   const [currentPage, setCurrentPage] = useState(1);
