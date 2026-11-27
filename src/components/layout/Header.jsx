@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ShoppingBag, X, Search } from 'lucide-react';
+import { ShoppingBag, X, Search, Instagram } from 'lucide-react';
 import { useCart } from '../../context/CartContext';
 
 export const Header = ({ searchQuery = '', onSearch }) => {
@@ -56,32 +56,45 @@ export const Header = ({ searchQuery = '', onSearch }) => {
           </form>
         </div>
 
-        {/* Right Header: Menu Button with 3 Yellow Decorative Rays */}
-        <div className="relative flex items-center flex-shrink-0">
-          {/* 3 Yellow Decorative Rays (彡) */}
-          <svg
-            className="absolute -top-3 -right-1 sm:-right-3.5 w-6 h-6 sm:w-7 sm:h-7 pointer-events-none select-none text-[#f5a623]"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2.8"
-            strokeLinecap="round"
+        {/* Right Header: Instagram Link + Menu Button with 3 Yellow Decorative Rays */}
+        <div className="flex items-center gap-2 sm:gap-2.5 flex-shrink-0">
+          <a
+            href="https://www.instagram.com/pekebook_/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-[36px] h-[36px] sm:w-[44px] sm:h-[44px] rounded-[11px] sm:rounded-[14px] border-[1.5px] border-[#ece6ef] bg-white hover:border-[#ff5eb5] hover:bg-[#fff5f9] flex items-center justify-center text-[#ee2b91] transition-colors shadow-[0_2px_6px_rgba(0,0,0,.03)]"
+            aria-label="Instagram de PekeBook"
+            title="Síguenos en Instagram @pekebook_"
           >
-            <path d="M4 14C8 10 13 6 19 3" />
-            <path d="M6 17C12 16 17 15 23 15" />
-            <path d="M6 20C11 21 16 23 21 24" />
-          </svg>
+            <Instagram className="w-4 h-4 sm:w-5 sm:h-5" />
+          </a>
 
-          <button
-            className="menu-button-box"
-            aria-label="Abrir menú"
-            aria-expanded={isMenuOpen}
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          >
-            <span className="text-2xl font-bold leading-none select-none text-[#25213a]">
-              {isMenuOpen ? '✕' : '☰'}
-            </span>
-          </button>
+          <div className="relative flex items-center">
+            {/* 3 Yellow Decorative Rays (彡) */}
+            <svg
+              className="absolute -top-3 -right-1 sm:-right-3.5 w-6 h-6 sm:w-7 sm:h-7 pointer-events-none select-none text-[#f5a623]"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.8"
+              strokeLinecap="round"
+            >
+              <path d="M4 14C8 10 13 6 19 3" />
+              <path d="M6 17C12 16 17 15 23 15" />
+              <path d="M6 20C11 21 16 23 21 24" />
+            </svg>
+
+            <button
+              className="menu-button-box"
+              aria-label="Abrir menú"
+              aria-expanded={isMenuOpen}
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              <span className="text-2xl font-bold leading-none select-none text-[#25213a]">
+                {isMenuOpen ? '✕' : '☰'}
+              </span>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -130,6 +143,16 @@ export const Header = ({ searchQuery = '', onSearch }) => {
               className="py-2 px-4 rounded-full font-heading font-bold text-gray-800 hover:bg-pink-50 hover:text-pink-600 transition-colors"
             >
               Contacto
+            </a>
+            <a
+              href="https://www.instagram.com/pekebook_/"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsMenuOpen(false)}
+              className="py-2 px-4 rounded-full font-heading font-bold text-[#ee2b91] hover:bg-pink-50 transition-colors inline-flex items-center justify-center gap-1.5"
+            >
+              <Instagram className="w-4 h-4" />
+              <span>Instagram @pekebook_</span>
             </a>
 
             <button

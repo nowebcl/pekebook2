@@ -52,7 +52,7 @@ export const InstagramFeed = () => {
             <span>Comunidad Creativa</span>
           </span>
           <h2 className="font-heading font-black text-2xl sm:text-3xl text-gray-900 mt-1">
-            💖 Síguenos en Instagram @pekebook.cl 💖
+            💖 Síguenos en Instagram @pekebook_ 💖
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mt-0.5">
             Descubre nuevos arribos, reels de talleres, tips de encuadernación y nuestro día a día en el sur.
@@ -60,7 +60,7 @@ export const InstagramFeed = () => {
         </div>
 
         <a
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/pekebook_/"
           target="_blank"
           rel="noopener noreferrer"
           className="px-5 py-2.5 rounded-full bg-gradient-to-r from-pink-500 via-rose-500 to-purple-600 text-white font-bold text-xs flex items-center gap-2 shadow-md shadow-pink-200 hover:scale-105 transition-all"
@@ -101,7 +101,7 @@ export const InstagramFeed = () => {
                 {post.caption}
               </p>
               <span className="text-[9px] font-bold text-pink-200 uppercase tracking-widest pb-1">
-                @pekebook.cl
+                @pekebook_
               </span>
             </div>
           </div>

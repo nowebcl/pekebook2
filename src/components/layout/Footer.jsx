@@ -1,4 +1,5 @@
 import React from 'react';
+import { Instagram } from 'lucide-react';
 
 export const Footer = () => {
   return (
@@ -16,6 +17,16 @@ export const Footer = () => {
           />
           <strong className="brand-fallback">PEKEBOOK</strong>
           <p>Librería, bazar y servicios creativos en Puerto Montt.</p>
+          <a
+            href="https://www.instagram.com/pekebook_/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="!inline-flex items-center gap-2 mt-3 px-4 py-2 rounded-full bg-gradient-to-r from-[#ee2b91] to-[#f472b6] !text-white font-heading font-bold text-xs shadow-sm hover:opacity-90 transition-opacity"
+            aria-label="Síguenos en Instagram @pekebook_"
+          >
+            <Instagram className="w-4 h-4" />
+            <span>@pekebook_</span>
+          </a>
         </div>
 
         <div>
